@@ -1,15 +1,15 @@
 {
-  "name": "Alita_Robot",
-  "description": "Alita is a Telegram Group management bot made using Pyrogram and Python, which makes it modern and faster than most of the Telegram chat managers.",
+  "name": "TeleManager",
+  "description": "TeleManager is a Telegram Group management bot made using Pyrogram and Python, which makes it modern and faster than most of the Telegram chat managers.",
   "keywords": [
     "telegram bot",
     "group bot",
     "group",
     "manager",
-    "alita",
-    "alita_robot"
+    "telemanager",
+    "akbotdevs_new"
   ],
-  "repository": "https://github.com/DivideProjects/Alita_Robot",
+  "repository": "https://github.com/Akbotmakersnew/TeleManager",
   "website": "https://t.me/DivideProjects",
   "success_url": "https://t.me/DivideProjects",
   "env": {
