@@ -10,8 +10,8 @@
     "akbotdevs_new"
   ],
   "repository": "https://github.com/Akbotmakersnew/TeleManager",
-  "website": "https://t.me/DivideProjects",
-  "success_url": "https://t.me/DivideProjects",
+  "website": "https://t.me/Ak_Bot_SupportGroup",
+  "success_url": "https://t.me/Ak_Bot_SupportGroup",
   "env": {
     "BOT_TOKEN": {
       "description": "Your telegram bot token, get from @Botfather in telegram.",
@@ -36,12 +36,12 @@
     "DB_NAME": {
       "description": "Your MongoDB database name.",
       "required": true,
-      "value": "alita_robot"
+      "value": "Cluster__ 0 or other"
     },
     "OWNER_ID": {
       "description": "Your user ID as an integer.",
       "required": true,
-      "value": "1198820588"
+      "value": "1684089101"
     },
     "SUPPORT_GROUP": {
       "description": "Your Telegram support group chat username where user's can contact in case of a problem..",
@@ -51,7 +51,7 @@
     "MESSAGE_DUMP": {
       "description": "Event logs channel where bot will send updates.",
       "required": true,
-      "value": "-100123456798"
+      "value": ""
     },
     "VERSION": {
       "description": "A Version to be shown in bot.",
@@ -66,16 +66,16 @@
     "DEV_USERS": {
       "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
       "required": false,
-      "value": ""
+      "value": "1959468726 1684089101"
     },
     "SUPPORT_CHANNEL": {
       "description": "Channel where bot uodates will be posted!",
-      "value": "AlitaUpdates"
+      "value": "Ak_Bot_SupportGroup"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user IDs who you want to assign as sudo users.",
       "required": false,
-      "value": ""
+      "value": "1959468726 1684089101"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user IDs whitelisted, cannot be restricted..",
