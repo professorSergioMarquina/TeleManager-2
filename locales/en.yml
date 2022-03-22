@@ -138,7 +138,7 @@ strings:
       help: |-
         Formatting
 
-        Alita supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!
+        Eldro supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!
     fun:
       main: "Fun"
       help: |-
@@ -615,13 +615,13 @@ strings:
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-      Hey there! My name is TeleManager✨.
+      Hey there! My name is <b>Eldro</b>✨.
       I'm here to help you manage your groups!
       Hit /help to find out more about how to use me in my full potential!
 
       Join my [Support Group](https://t.me/Ak_Bot_SupportGroup) to get information on all the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
-    source_code: "Source Code"
+    source_code: "Updates"
   utils:
     gif_id:
       reply_gif: "Please reply to a gif to get it's ID."
