@@ -4,6 +4,7 @@ services:
     build: .
     environment:
       OWNER_ID: $OWNER_ID
+      SESSION: $SESSION
       SUPPORT_GROUP: $SUPPORT_GROUP
       MESSAGE_DUMP: $MESSAGE_DUMP
       API_ID: $API_ID
