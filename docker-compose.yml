@@ -6,10 +6,10 @@ services:
       OWNER_ID: $OWNER_ID
       SUPPORT_GROUP: $SUPPORT_GROUP
       MESSAGE_DUMP: $MESSAGE_DUMP
-      API_ID: $API_ID  # defaults to None
-      API_HASH: $API_HASH  # defaults to None
-      DB_URI: $DB_URI  # defaults to None
-      BOT_TOKEN: $BOT_TOKEN # Not mandatory
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      DB_URI: $DB_URI  
+      BOT_TOKEN: $BOT_TOKEN
       DB_NAME: $DB_NAME
       VERSION: $VERSION
       PREFIX_HANDLER: $PREFIX_HANDLER
