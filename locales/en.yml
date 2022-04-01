@@ -619,7 +619,7 @@ strings:
       I'm here to help you manage your groups!
       Hit /help to find out more about how to use me in my full potential!
 
-      Join my [Support Group](https://t.me/Ak_Bot_SupportGroup) to get information on all the latest updates.
+      Join my [Updates channel](https://t.me/EldroUpdates) to get information on all the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "Updates"
   utils:
