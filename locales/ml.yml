@@ -8,18 +8,18 @@ strings:
     admin:
       main: "Admin"
       help: |-
-        Lazy to promote or demote someone for admins? Want to see basic information about chat?
-        All stuff about chatroom such as admin lists, pinning or grabbing an invite link can be done easily using the bot.
+        അഡ്മിൻമാർക്കായി ഒരാളെ പ്രൊമോട്ട് ചെയ്യാനോ തരംതാഴ്ത്താനോ മടിയുണ്ടോ? ചാറ്റിനെക്കുറിച്ചുള്ള അടിസ്ഥാന വിവരങ്ങൾ കാണണോ?
+                അഡ്‌മിൻ ലിസ്റ്റുകൾ, ഒരു ക്ഷണ ലിങ്ക് പിൻ ചെയ്യുക അല്ലെങ്കിൽ പിടിച്ചെടുക്കൽ തുടങ്ങിയ ചാറ്റ്റൂമിനെക്കുറിച്ചുള്ള എല്ലാ കാര്യങ്ങളും ബോട്ട് ഉപയോഗിച്ച് എളുപ്പത്തിൽ ചെയ്യാനാകും.
         **User Commands:**
-        × /adminlist: List all the admins in the Group.
+        × /adminlist: ഗ്രൂപ്പിലെ അഡ്മിൻസ്ന്റെ lists.
         **Admin only:**
-        × /invitelink: Gets chat invitelink.
-        × /promote: Promotes the user replied to or tagged (supports with title).
+        × /invitelink: ചാറ്റ് invite link എടുകാം.
+        × /promote: മെസ്സേജ് റിപ്ലൈ ആയിട്ട് കൊടുത്താൽ അഡ്മിൻ ആക്കാം(ടൈറ്റിൽ ഇടാൻ കഴിയും).
         × /fullpromote: Fully Promotes the user replied to or tagged (supports with title).
-        × /demote: Demotes the user replied to or tagged.
+        × /demote: ടാഗ് ചെയ്തിട്ടോ റിപ്ലൈ ചെയ്തിട്ടോ ഈ കമാൻഡ് ഉപയോഗിക്കുക.
         × /admincache: Reloads the List of all the admins in the Group.
-        × /zombies: Bans all the deleted accounts. (owner only)
-        × /title: sets a custom title for an admin that the bot promoted.
+        × /zombies: deleted accounts ബാൻ ആക്കാം. (ഗ്രൂപ്പ്‌ ഉടമസ്ഥന് മാത്രം)
+        × /title: custom title ഇടാവുന്നതാണ്.
         × /disable <commandname>: Stop users from using "commandname" in this group.
         × /enable <item name>: Allow users from using "commandname" in this group.
         × /disableable: List all disableable commands.
@@ -27,7 +27,7 @@ strings:
         × /disabled: List the disabled commands in this chat.
         × /enableall: enable all disabled commands.
         **Example:**
-        `/promote @username`: this promotes a user to admin.
+        `/promote @username`: ഇത് ഗ്രൂപ്പിൽ അഡ്മിൻ ആകാൻ സഹായിക്കും.
     approve:
       main: "Approve"
       help: |-
@@ -48,7 +48,7 @@ strings:
         Customize your group's welcome / goodbye messages that can be personalised in multiple ways.
         Note:
         a) Currently it supports only text!
-        b) Alita must be an admin to greet and goodbye users.
+        b) Eldro മുഖ്യമായും അഡ്മിൻ ആയിരിക്കണം ഒരാളെ ആശംസിക്കാനും,വിടപറയാനും.
         Admin Commands:
         × /setwelcome <reply> : Sets a custom welcome message.
         × /setgoodbye <reply> : Sets a custom goodbye message.
@@ -218,8 +218,8 @@ strings:
     reporting:
       main: "Reporting"
       help: |-
-        × /report `<reason>`: reply to a message to report it to admins.
-        - @admin: reply to a message to report it to admins.
+        × /report `<reason>`: ഒരു മെസ്സേജിനു റിപ്ലൈ കൊടുത്തിട്ടു മെൻഷൻ ചെയ്യൂ.
+        - @admin: ഒരു മെസ്സേജിനു റിപ്ലൈ കൊടുത്തിട്ടു മെൻഷൻ ചെയ്യൂ.
         **NOTE:** Neither of these will get triggered if used by admins.
         **Admins Only:**
         × /reports `<on/off/yes/no>`: change report setting, or view current status.
@@ -300,13 +300,13 @@ strings:
     no_invite_perm: "I don't have permission for invite link!"
     no_restrict_perm: "You don't have permissions to restrict members!"
     no_user_invite_perm: "You don't have permissions to invite users."
-    not_admin: "I'm not admin or I don't have rights."
+    not_admin: "ഞാൻ അഡ്മിൻ അല്ല അല്ലെങ്കിൽ എനിക്ക് മതിയായ അനുമധികളില്ല."
     promote:
       no_target: "I can't promote nothing!"
-      bot_no_right: "I don't have enough rights to promote this user."
-      no_promote_perm: "You don't have permission to promote members!"
+      bot_no_right: "എനിക്ക് മതിയായ അനുമതികൾ ഇല്ല."
+      no_promote_perm: "നിങ്ങൾക്ക് പ്രൊമോട്ട് ചെയ്യാൻ മതിയായ അനുമധികളില്ല ബ്രോ😑!"
       promoted_user: "{promoter} promoted {promoted} in chat <b>{chat_title}</b>!"
-    support_cannot_restrict: "This user is in my support staff, cannot restrict them."
+    support_cannot_restrict: "ഇത്സ എന്റെ സപ്പോർട്ട് സ്റ്റാഫ്‌ ആണ്, cannot restrict them."
     unban:
       user_not_banned: "How can I unban a user who is not banned?"
       no_target: "I can't unban nothing!"
@@ -465,11 +465,11 @@ strings:
     check_help: "Please check help on how to use this this command."
     close_btn: Close
     commands_available: |-
-      Hey There! My name is TeleManager.
-      I'm here to help you manage your groups!
+      ഹായ് ബ്രോ! എന്റെ പേര് Eldro😎.
+      ഞാൻ നിങ്ങളുടെ ഗ്രൂപ്പ്‌ മാനേജ് ചെയ്യാൻ സഹായിക്കും❤!
       Commands available:
-       × /start: Start the bot
-       × /help: Give's you this message.
+       × /start: ബോട്ട് സ്റ്റാർട്ട്‌ ചെയ്യാം
+       × /help: എന്നെ കുറിച്ച് കൂടുതൽ അറിയാൻ കഴിയും.
        × /donate: Information related on how to support my creator!
       All commands can either be used with / or !.
     no_admin_cmd_perm: "You cannot use an admin command!"
@@ -551,7 +551,7 @@ strings:
     info_page: |-
       • @MrEldro_bot
       <b>Version:</b> <i>{version}</i>
-      <b>Developers:</b> [AkBotDevs](https://t.me/Ak_Bot_SupportGroup)
+      <b>Developers:</b> [EldroSupport](https://t.me/EldroSupportGroup)
       <b>Owner:</b> [{Owner}](tg://user?id={ID})
     support_group: Support
     language_btn: Language
@@ -567,11 +567,11 @@ strings:
     gif_id:
       reply_gif: "Please reply to a gif to get it's ID."
     id:
-      group_id: "This Group's ID is <code>{group_id}</code>"
+      group_id: "ഈ ഗ്രൂപ്പിന്റെ ID is <code>{group_id}</code>"
       id_main: |-
         Original Sender - {orig_sender} (<code>{orig_id}</code>)
         Forwarder - {fwd_sender} (<code>{fwd_id}</code>)
-      my_id: "Your ID is <code>{my_id}</code>."
+      my_id: "താങ്കളുടെ ID <code>{my_id}</code>."
     no_user_db: |-
       Failed to get user
       Peer ID invalid, I haven't seen this user anywhere earlier, maybe username would help to know them!
