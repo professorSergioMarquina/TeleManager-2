@@ -15,43 +15,43 @@ strings:
         **Admin only:**
         × /invitelink: ചാറ്റ് invite link എടുകാം.
         × /promote: മെസ്സേജ് റിപ്ലൈ ആയിട്ട് കൊടുത്താൽ അഡ്മിൻ ആക്കാം(ടൈറ്റിൽ ഇടാൻ കഴിയും).
-        × /fullpromote: Fully Promotes the user replied to or tagged (supports with title).
+        × /fullpromote: മറുപടി നൽകിയ അല്ലെങ്കിൽ ടാഗ് ചെയ്‌ത ഉപയോക്താവിനെ പൂർണ്ണമായി പ്രോത്സാഹിപ്പിക്കുന്നു (ശീർഷകത്തോടുകൂടിയ പിന്തുണ).
         × /demote: ടാഗ് ചെയ്തിട്ടോ റിപ്ലൈ ചെയ്തിട്ടോ ഈ കമാൻഡ് ഉപയോഗിക്കുക.
-        × /admincache: Reloads the List of all the admins in the Group.
+        × /admincache: ഗ്രൂപ്പിലെ എല്ലാ അഡ്മിൻമാരുടെയും ലിസ്റ്റ് റീലോഡ് ചെയ്യുന്നു.
         × /zombies: deleted accounts ബാൻ ആക്കാം. (ഗ്രൂപ്പ്‌ ഉടമസ്ഥന് മാത്രം)
         × /title: custom title ഇടാവുന്നതാണ്.
-        × /disable <commandname>: Stop users from using "commandname" in this group.
-        × /enable <item name>: Allow users from using "commandname" in this group.
-        × /disableable: List all disableable commands.
-        × /disabledel <yes/off>: Delete disabled commands when used by non-admins.
-        × /disabled: List the disabled commands in this chat.
-        × /enableall: enable all disabled commands.
+        × /disable <commandname>: ഈ ഗ്രൂപ്പിൽ "കമാൻഡ് നെയിം" ഉപയോഗിക്കുന്നതിൽ നിന്നും ഉപയോക്താക്കളെ തടയുക.
+        × /enable <item name>: ഈ ഗ്രൂപ്പിൽ "കമാൻഡ് നെയിം" ഉപയോഗിക്കുന്നതിൽ നിന്നും ഉപയോക്താക്കളെ അനുവദിക്കുക.
+        × /disableable: പ്രവർത്തനരഹിതമാക്കാവുന്ന എല്ലാ കമാൻഡുകളും ലിസ്റ്റ് ചെയ്യുക.
+        × /disabledel <yes/off>: അഡ്‌മിനുകൾ അല്ലാത്തവർ ഉപയോഗിക്കുമ്പോൾ പ്രവർത്തനരഹിതമാക്കിയ കമാൻഡുകൾ ഇല്ലാതാക്കുക.
+        × /disabled: ഈ ചാറ്റിൽ പ്രവർത്തനരഹിതമാക്കിയ കമാൻഡുകൾ ലിസ്റ്റ് ചെയ്യുക.
+        × /enableall: പ്രവർത്തനരഹിതമാക്കിയ എല്ലാ കമാൻഡുകളും പ്രവർത്തനക്ഷമമാക്കുക.
         **Example:**
         `/promote @username`: ഇത് ഗ്രൂപ്പിൽ അഡ്മിൻ ആകാൻ സഹായിക്കും.
     approve:
       main: "Approve"
       help: |-
-        Sometimes, you might trust a user not to send unwanted content.
-        Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
-        That's what approvals are for - approve trustworthy users to allow them to send stuff without restrictions!
+        ചിലപ്പോൾ, അനാവശ്യമായ ഉള്ളടക്കം അയയ്‌ക്കരുതെന്ന് നിങ്ങൾ ഒരു ഉപയോക്താവിനെ വിശ്വസിച്ചേക്കാം.
+        അവരെ അഡ്‌മിൻ ആക്കാൻ പര്യാപ്തമല്ലായിരിക്കാം, പക്ഷേ ലോക്കുകൾ, ബ്ലാക്ക്‌ലിസ്റ്റുകൾ, ആന്റിഫ്‌ളഡ് എന്നിവ അവർക്ക് ബാധകമാകാത്തത് നിങ്ങൾക്ക് ശരിയായിരിക്കാം.
+        അതിനാണ് അംഗീകാരങ്ങൾ - നിയന്ത്രണങ്ങളില്ലാതെ സ്റ്റഫ് അയക്കാൻ അനുവദിക്കുന്നതിന് വിശ്വസനീയരായ ഉപയോക്താക്കളെ അംഗീകരിക്കുക!
         **Admin commands:**
-        × /approval: Check a user's approval status in this chat.
-        × /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-        × /unapprove: Unapprove of a user. They will now be subject to blocklists.
-        × /approved: List all approved users.
-        × /unapproveall: Unapprove *ALL* users in a chat. This cannot be undone!
+        × /approval: ഈ ചാറ്റിൽ ഒരു ഉപയോക്താവിന്റെ അംഗീകാര നില പരിശോധിക്കുക.
+        × /approve: ഒരു ഉപയോക്താവിനെ അംഗീകരിക്കുക. ലോക്കുകൾ, ബ്ലാക്ക്‌ലിസ്‌റ്റുകൾ, ആന്റിഫ്‌ളഡ് എന്നിവ ഇനി അവർക്ക് ബാധകമല്ല.
+        × /unapprove: ഒരു ഉപയോക്താവിനെ അംഗീകരിക്കുന്നില്ല. അവ ഇപ്പോൾ ബ്ലോക്ക് ലിസ്റ്റുകൾക്ക് വിധേയമാകും.
+        × /approved: എല്ലാ അംഗീകൃത ഉപയോക്താക്കളെയും പട്ടികപ്പെടുത്തുക.
+        × /unapproveall: ഒരു ചാറ്റിലെ *എല്ലാ* ഉപയോക്താക്കളെയും അംഗീകരിക്കാതിരിക്കുക. ഇത് പഴയപടിയാക്കാൻ കഴിയില്ല!
         **Example:**
-        `/approve @username`: this approves a user in the chat.
+        `/approve @username`: ഇത് ചാറ്റിലെ ഒരു ഉപയോക്താവിനെ അംഗീകരിക്കുന്നു.
     greetings:
       main: "Greetings"
       help: |-
-        Customize your group's welcome / goodbye messages that can be personalised in multiple ways.
+        നിങ്ങളുടെ ഗ്രൂപ്പിന്റെ സ്വാഗതം / വിടവാങ്ങൽ സന്ദേശങ്ങൾ ഇഷ്‌ടാനുസൃതമാക്കുക, അത് ഒന്നിലധികം വഴികളിൽ വ്യക്തിഗതമാക്കാം.
         Note:
         a) Currently it supports only text!
         b) Eldro മുഖ്യമായും അഡ്മിൻ ആയിരിക്കണം ഒരാളെ ആശംസിക്കാനും,വിടപറയാനും.
         Admin Commands:
-        × /setwelcome <reply> : Sets a custom welcome message.
-        × /setgoodbye <reply> : Sets a custom goodbye message.
+        × /setwelcome <reply> : ഒരു ഇഷ്‌ടാനുസൃത സ്വാഗത സന്ദേശം സജ്ജമാക്കുന്നു.
+        × /setgoodbye <reply> : ഒരു ഇഷ്‌ടാനുസൃത വിടവാങ്ങൽ സന്ദേശം സജ്ജമാക്കുന്നു.
         × /resetwelcome : Resets to bot default welcome message.
         × /resetgoodbye : Resets to bot default goodbye message.
         × /welcome <on/off> | noformat : enable/disable | Shows the current welcome message | settings.
