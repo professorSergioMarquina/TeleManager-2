@@ -14,7 +14,7 @@ from pytgcalls.types.input_stream.quality import (
 )
 from youtubesearchpython import VideosSearch
 
-from config import HNDLR, bot, call_py
+from config import HNDLR, BOT_TOKEN, bot, call_py
 from EvaMaria.helpers.queues import QUEUE, add_to_queue, get_queue
 
 MRDARKPRINCE = [
