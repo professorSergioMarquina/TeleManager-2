@@ -36,18 +36,3 @@ typing-extensions==4.0.1; python_full_version >= "3.6.2" and python_version >= "
 ujson==4.3.0; python_version >= "3.6"
 urllib3==1.26.8; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version < "4"
 wikipedia==1.4.0
-TgCrypto
-git+https://github.com/pyrogram/pyrogram@master
-py-tgcalls==0.8.1rc1
-requests
-aiohttp
-aiofiles
-asyncio
-wget
-python-arq
-youtube-search-python==1.4.6
-youtube-search-python
-yt-dlp
-python-dotenv
-gTTS
-googletrans==4.0.0rc1
