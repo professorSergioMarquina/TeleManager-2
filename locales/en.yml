@@ -5,37 +5,6 @@ main:
   language_name: English
 strings:
   plugins:
-    music:
-      main: "Music"
-      help: |-
-        **Play Commands**
-        × /play - play music.
-        × /vplay - play video.
-        × /cplay - play music in channel.
-        × /cvplay - play video in channel.
-        **Stream Command**
-        × /stream
-        × /cstream
-        **Playlist Commands**
-        × /playlist - add playlist.
-        × /deleteplaylist - delete playlists.
-        **Queue Command**
-        × /queue
-        × /cqueue
-        × /player
-        × /cplayer
-        × /playing
-        × /cplaying
-        **Song Command**
-        × /song
-        × /video
-        × /lyrics - search music lyrics
-        **Video Calls Command**
-        × /set_video_limit
-        × /videomode
-        **Voice chat commands**
-        × /activevoice - activate voice
-        × /activevideo - activate video
     admin:
       main: "Admin"
       help: |-
