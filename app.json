@@ -68,19 +68,9 @@
       "required": false,
       "value": "1959468726 1684089101"
     },
-    "HNDLR": {
-      "description": "Set handler",
-      "required": false,
-      "value": "/"
-    },
     "SUPPORT_CHANNEL": {
       "description": "Channel where bot uodates will be posted!",
       "value": "Ak_Bot_SupportGroup"
-    },
-    "SESSION": {
-      "description": "Pyrogram String Session. From https://t.me/Python_StringGen_bot",
-      "required": true,
-      "value": ""
     },
     "SUDO_USERS": {
       "description": "A space separated list of user IDs who you want to assign as sudo users.",
