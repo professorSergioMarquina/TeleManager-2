@@ -1,5 +1,7 @@
 # Alita_Robot
 
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/Akbotmakersnew/TeleManagerNew"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
+
 <p align='center'>
   <img src="https://img.shields.io/github/forks/DivideProjects/Alita_Robot?style=flat-square" alt="Forks">
   <img src="https://img.shields.io/github/stars/DivideProjects/Alita_Robot?style=flat-square" alt="Stars">
