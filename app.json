@@ -9,7 +9,7 @@
     "telemanager",
     "akbotdevs_new"
   ],
-  "repository": "https://github.com/Akbotmakersnew/TeleManager",
+  "repository": "https://github.com/Akbotmakersnew/TeleManager-2",
   "website": "https://t.me/Ak_Bot_SupportGroup",
   "success_url": "https://t.me/Ak_Bot_SupportGroup",
   "env": {
@@ -46,7 +46,7 @@
     "SUPPORT_GROUP": {
       "description": "Your Telegram support group chat username where user's can contact in case of a problem..",
       "required": true,
-      "value": "Ak_Bot_SupportGroup"
+      "value": "EldroSupportGroup"
     },
     "MESSAGE_DUMP": {
       "description": "Event logs channel where bot will send updates.",
@@ -70,7 +70,7 @@
     },
     "SUPPORT_CHANNEL": {
       "description": "Channel where bot uodates will be posted!",
-      "value": "Ak_Bot_SupportGroup"
+      "value": "EldroUpdates"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user IDs who you want to assign as sudo users.",
