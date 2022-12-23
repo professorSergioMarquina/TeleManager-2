@@ -39,3 +39,6 @@ wikipedia==1.4.0
 telethon
 cryptg
 asyncio
+pytz
+aiohttp
+
